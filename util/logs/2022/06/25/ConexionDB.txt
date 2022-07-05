@@ -1,0 +1,3 @@
+2022-06-25 00:20:13 >>> Error de conexion: (
+            1049 ) Unknown database 'pedidos'2022-06-25 00:21:26 >>> Error de conexion: (
+            1049 ) Unknown database 'pedidos'

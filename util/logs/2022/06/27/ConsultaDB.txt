@@ -1,0 +1,21 @@
+2022-06-27 23:57:25 >>> Error en el query: (
+            Table 'pedidos.usuario_accesos' doesn't exist ) 
+            SELECT a.ventana
+            FROM menu AS a
+            INNER JOIN usuario_accesos AS b ON (a.idmenu = b.idmenu)
+            WHERE b.usuario = 'admin'    
+            AND a.estado = 'ACTIVO'
+            AND a.es_menu = 'NO'    
+            ORDER BY a.idpadre, a.orden
+            LIMIT 1
+        2022-06-27 23:58:34 >>> Error en el query: (
+            Table 'pedidos.usuario_accesos' doesn't exist ) 
+            SELECT a.ventana
+            FROM menu AS a
+            INNER JOIN usuario_accesos AS b ON (a.idmenu = b.idmenu)
+            WHERE b.usuario = 'admin'    
+            AND a.estado = 'ACTIVO'
+            AND a.es_menu = 'NO'    
+            ORDER BY a.idpadre, a.orden
+            LIMIT 1
+        

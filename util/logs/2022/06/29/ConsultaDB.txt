@@ -1,0 +1,60 @@
+2022-06-29 02:02:25 >>> Error en el query: (
+            Table 'pedidos.usuario_accesos' doesn't exist ) 
+        SELECT a.idmenu, a.nombre, a,idpadre, a.ventana, a.es_menu, a.icono
+        FROM menu AS a
+        LEFT JOIN usuario_accesos AS b ON (a.idmenu = b.idmenu)
+        WHERE b.usuario = 'admin'
+        AND a.estado = 'ACTIVO'
+        AND a.idpadre IS NOT NULL
+        ORDER BY a.orden
+    2022-06-29 02:07:01 >>> Error en el query: (
+            Table 'pedidos.usuario_accesos' doesn't exist ) 
+        SELECT a.idmenu, a.nombre, a,idpadre, a.ventana, a.es_menu, a.icono
+        FROM menu AS a
+        LEFT JOIN usuario_accesos AS b ON (a.idmenu = b.idmenu)
+        WHERE b.usuario = 'admin'
+        AND a.estado = 'ACTIVO'
+        AND a.idpadre IS NOT NULL
+        ORDER BY a.orden
+    2022-06-29 02:07:51 >>> Error en el query: (
+            Unknown column 'a' in 'field list' ) 
+        SELECT a.idmenu, a.nombre, a,idpadre, a.ventana, a.es_menu, a.icono        
+        FROM menu AS a        
+        LEFT JOIN usuarios_accesos AS b ON (a.idmenu = b.idmenu)
+        WHERE b.usuario = 'admin'
+        AND a.estado = 'ACTIVO'
+        AND a.idpadre IS NOT NULL
+        ORDER BY a.orden
+    2022-06-29 02:08:40 >>> Error en el query: (
+            Unknown column 'a' in 'field list' ) 
+        SELECT a.idmenu, a.nombre, a,idpadre, a.ventana, a.es_menu, a.icono        
+        FROM menu AS a        
+        LEFT JOIN usuarios_accesos AS b ON (a.idmenu = b.idmenu)
+        WHERE b.usuario = 'admin'        
+        AND a.estado = 'ACTIVO'        
+        AND a.idpadre IS NOT NULL
+        ORDER BY a.orden        
+    2022-06-29 02:10:46 >>> Error en el query: (
+            Unknown column 'a' in 'field list' ) 
+        SELECT a.idmenu, a.nombre, a,idpadre, a.ventana, a.es_menu, a.icono     
+        
+        FROM menu AS a 
+        
+        LEFT JOIN usuarios_accesos AS b ON (a.idmenu = b.idmenu)
+        
+        WHERE b.usuario = 'admin'    
+        
+        AND a.estado = 'ACTIVO'        
+        
+        AND a.idpadre IS NOT NULL
+        
+        ORDER BY a.orden        
+        
+    2022-06-29 02:13:46 >>> Error en el query: (
+            Unknown column 'a' in 'field list' ) 
+            SELECT a.idmenu, a.nombre, a,idpadre, a.ventana, a.es_menu, a.icono
+            FROM menu AS a
+            WHERE a.idmenu IN (1)
+            AND a.estado = 'ACTIVO'            
+            ORDER BY a.orden
+        
