@@ -9,16 +9,13 @@
     rel="icon" type="image/x-icon">
     
     <?php        
-        for($f=0; $f < count($varAccesos['framework']); $f++){                        
-                
+        for($f=0; $f < count($varAccesos['framework']); $f++){                                        
             switch($varAccesos['framework'][$f]){                                                
                 case 'bootstrap';                       
                     echo '<link href="lib/css/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>';
                     echo '<link href="lib/css/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>';
                 break;
-            }         
-            
-            
+            }                                 
         }
 
     ?>

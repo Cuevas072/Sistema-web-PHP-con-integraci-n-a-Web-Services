@@ -11,8 +11,7 @@ class Funciones{
 
         $mi_archivo = fopen($carpeta.$nombre_archivo.'.txt',"a") or die("Archivo Inaccesible!");
         fwrite($mi_archivo, date("Y-m-d H:i:s").' >>> '.$descripcion);
-        fclose($mi_archivo);
-        
+        fclose($mi_archivo);        
     }
 
     public static function ObtenerIp(){
